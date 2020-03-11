@@ -1,0 +1,32 @@
+body{
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  margin: 0px;
+  width: 90%;
+  background-color: #011627;
+  border: 60px solid #2ec486;
+  border-top: 0px;
+  color: white;
+}
+
+p{
+  padding-top: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+form{
+  font-size: 1.5em;
+  margin-bottom: 10px;
+
+}
+
+#button{
+background-color: #FF9F1C;
+width: 150px;
+height: 80px;
+border-radius: 25px;
+margin: 4px;
+margin-top: 10px;
+font-size: 1.0em;
+}

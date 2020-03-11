@@ -1,0 +1,21 @@
+/* comment */
+
+body{
+  background-color: gray;
+}
+
+div{
+  background-color: blue;
+  border-color: orange;
+  border-width: 5px;
+  border-style: dotted;
+}
+
+p{
+  color: yellow;
+}
+
+span{
+  background-color: red;
+  color: black;
+}

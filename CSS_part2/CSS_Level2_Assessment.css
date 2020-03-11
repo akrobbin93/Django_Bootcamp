@@ -1,0 +1,31 @@
+h1{
+  text-align: center;
+  font-family: 'Squada One', cursive;
+}
+table{
+  margin: auto;
+}
+td{
+  width: 150px;
+  height: 300px;
+  border: 6px solid white;
+}
+#one{
+  background-color: #CC8D08;
+}
+
+#two{
+  background-color: #D52A4E;
+}
+
+#three{
+  background-color: #0F5375;
+}
+
+#four{
+  background-color: #481C40;
+}
+
+#five{
+  background-color: #EBECEE;
+}
