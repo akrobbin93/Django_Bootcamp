@@ -14,5 +14,24 @@
     <p>There was a legend... Many people tell it. The legend of the Vault. My father would always go on about the Vault; even with his dying breath. Advanced alien technology. Infinite wealth. Fame. Power. Women. So you can understand why some little kiddos who hear the stories grow up to become Vault hunters.</p>
     <p>Well, I have a story you may not believe. But I tell you it is true. The legend of the Vault is real! And it is here on Pandora. And a... let's call her a 'guardian angel,' appeared to guide the Vault hunters to their prize. The tale begins right here on Pandora, with the brave Vault hunters, the guardian angel and most importantly, me...</p>
     <img id=marcus src="{% static "images/marcus.jpg"%}" alt="Picture Not Found">
+
+    <div class="djangotwo">
+      {% if access_records %}
+        <table>
+          <thead>
+            <th>Site Name</th>
+            <th>Date Accessed</th>
+          </thead>
+          {% for current in access_records %}
+            <tr>
+              <td>{{ current.name }}</td>
+              <td>{{ current.date }}</td>
+            </tr>
+          {% endfor %}
+        </table>
+      {% else %}
+        <p>NO ACCESS RECORDS</p>
+      {% endif %}
+    </div>
   </body>
 </html>
